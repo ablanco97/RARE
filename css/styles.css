@@ -327,6 +327,7 @@ text-align: right;
 padding-bottom: 20px;
 }
 
+ 
 .content {
   bottom: 0;
   color: #F0F0F0;
@@ -343,6 +344,7 @@ padding-bottom: 20px;
   margin-right: -50%;
   transform: translate(-50%, -50%) }
 }
+
 
 .message-box{margin-bottom:20px;border-top:#F0F0F0 2px solid;background:#FAF8F8;padding:10px;}
 .btnEditAction{background-color:#2FC332;border:0;padding:2px 10px;color:#FFF;}
