@@ -200,6 +200,12 @@ hr.new1 {
   margin-right: auto;
 }
 
+.carousel-1 {
+max-width: 720px;
+align-items: center;
+text-align: center;
+
+}
 
 body {
   margin-top: 0px;
