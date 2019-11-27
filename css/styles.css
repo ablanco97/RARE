@@ -71,7 +71,7 @@ input:focus + .line-box .line {
   font-style: normal;
   font-size: 50px;
   color: red;
-  text-indent: 100px;
+  text-indent: 25px;
 }
 
 .navbar-nav {
@@ -84,6 +84,12 @@ input:focus + .line-box .line {
   spacing: 15px;
   font-size: 20px;
   text-indent: 30px;
+  margin-right: 25px;
+}
+
+.navbar-toggler {
+margin-right: 25px;
+
 }
 
 hr.new1 {
@@ -91,7 +97,7 @@ hr.new1 {
 }
 
 .jumbotron-fluid-1 {
-  text-align: center;
+  text-align: left;
   background-color: white;
   color: black;
   padding: 50px;
@@ -102,6 +108,8 @@ hr.new1 {
 
 .jumbotron-fluid-2 {
   text-align: center;
+  align-items: center;
+  align-content: center;
   background-color: white;
   padding: 100px;
   margin: 0px;
@@ -150,12 +158,12 @@ hr.new1 {
 }
 
 .lead-1 {
-  text-align: left;
+  text-align: center;
   margin: auto;
   color: black;
   opacity: 0.6;
   font-family: proxima soft;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
   max-width: 1000px;
@@ -175,13 +183,22 @@ hr.new1 {
 
 .lead-3 {
   margin: auto;
-  color: white;
+  text-align: center;
+  color: black;
   opacity: 0.8;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  font-style: italic;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 body {
   margin-top: 0px;
@@ -327,7 +344,7 @@ text-align: right;
 padding-bottom: 20px;
 }
 
- 
+
 .content {
   bottom: 0;
   color: #F0F0F0;
